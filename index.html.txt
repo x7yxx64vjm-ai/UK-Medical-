@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UK Medical | International Medical University & Research Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UK Medical is an international medical university and research organization operating across Europe, Asia, and expanding to Kazakhstan.">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            background: #0b2a4a;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+        h2 {
+            color: #0b2a4a;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #0b2a4a;
+        }
+        .cta {
+            background: #0b2a4a;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .cta a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background: #d4af37;
+            color: #0b2a4a;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+        footer {
+            background: #081d33;
+            color: #ccc;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UK Medical</h1>
+    <p>International Medical University & Research Organization</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>
+        UK Medical is an international medical research and education organization with decades of experience
+        in pharmaceutical studies, clinical research, and academic training.
+        We combine scientific innovation with university-level medical education to prepare the next generation
+        of healthcare professionals.
+    </p>
+</section>
+
+<section>
+    <h2>Our Mission</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Medical Research</h3>
+            <p>
+                Conduct advanced scientific research in pharmaceuticals, clinical medicine,
+                and modern healthcare technologies.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Medical Education</h3>
+            <p>
+                Provide international-standard medical education and professional training
+                through universities and research centers.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Student Development</h3>
+            <p>
+                Identify talented students and researchers, supporting their academic and professional growth
+                in the medical field.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Global Presence</h2>
+    <p>
+        UK Medical operates universities, educational programs, and research centers in
+        <strong>China, India, and multiple European countries</strong>.
+        We actively promote international cooperation, academic exchange, and global medical innovation.
+    </p>
+</section>
+
+<section>
+    <h2>Expansion to Kazakhstan</h2>
+    <p>
+        As part of our global development strategy, UK Medical is planning to open a new medical university
+        in <strong>Kazakhstan</strong>.
+        This initiative aims to strengthen medical education, research, and healthcare development
+        in Central Asia.
+    </p>
+</section>
+
+<section class="cta">
+    <h2>Join UK Medical</h2>
+    <p>
+        We welcome students, researchers, academic partners, and institutions
+        to become part of our international medical community.
+    </p>
+    <a href="#">Apply Now</a>
+</section>
+
+<footer>
+    © 2026 UK Medical. All rights reserved.<br>
+    International Medical Research & Education Organization
+</footer>
+
+</body>
+</html>
